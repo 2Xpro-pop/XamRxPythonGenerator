@@ -4,7 +4,7 @@ commands:
   rx-page:
     -
       template: PageRx
-      path: ./Views/${name}Page.cs
+      path: ./Views/${name}Page.xaml
     -
       template: VmRx
       path: ./ViewModels/${name}ViewModel.cs

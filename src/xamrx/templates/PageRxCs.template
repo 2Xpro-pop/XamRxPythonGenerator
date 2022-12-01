@@ -1,0 +1,23 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using ${project}.ViewModels;
+using ReactiveUI.XamForms;
+using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
+
+namespace ${project}.Views
+{
+	[XamlCompilation(XamlCompilationOptions.Compile)]
+	public partial class ${name}Page : ReactiveContentPage<${name}ViewModel>
+	{
+		public ${name}Page ()
+		{
+			InitializeComponent ();
+
+            ViewModel = new ${name}ViewModel();
+		}
+	}
+}

@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ${project}.ViewModels;
-using ReactiveUI.Fody.Helpers;
 using ReactiveUI.XamForms;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;

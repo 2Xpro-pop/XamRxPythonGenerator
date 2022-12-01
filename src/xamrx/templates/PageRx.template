@@ -8,7 +8,7 @@
              x:TypeArguments="vm:${name}ViewModel">
     <ContentPage.Content>
         <StackLayout Padding="25">
-            <Text Text="{Binding RxText}"/>
+            <Label Text="{Binding RxText}"/>
         </StackLayout>
     </ContentPage.Content>
 </rxui:ReactiveContentPage>

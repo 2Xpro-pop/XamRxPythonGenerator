@@ -12,7 +12,7 @@ namespace ${project}.ViewModels
 
         public ${name}ViewModel()
         {
-            RxText = "Fody & RxUI ♡!"
+            RxText = "Fody & RxUI ♡!";
         }
     }
 }

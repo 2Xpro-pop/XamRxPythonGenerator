@@ -1,0 +1,10 @@
+project: TestSharp.Hi
+name: $2
+commands: 
+  rx-page:
+    -
+      template: PageRx
+      path: ./Views/${name}Page.cs
+    -
+      template: VmRx
+      path: ./ViewModels/${name}ViewModel.cs

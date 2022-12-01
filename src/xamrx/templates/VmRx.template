@@ -1,0 +1,18 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+using ReactiveUI;
+using Xamarin.Forms;
+
+namespace ${project}.ViewModels
+{
+    public class ${name}ViewModel: ReactiveObject
+    {
+        [Reactive] public string RxText { get; set; }
+
+        public ${name}ViewModel()
+        {
+            RxText = "Fody & RxUI ♡!"
+        }
+    }
+}
